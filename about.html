@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>About</title>
+<link rel="stylesheet" href="10.css">
+</head>
+
+<body>
+
+<div class="TOP">
+<div class="TOP-list">
+<ul class="topmenu">
+<li class="TOP-logo">Menu</li>
+<li class="demo3"><a href="http://www.google.com.tw" style="color:black;"title="About">About</a></li>
+<li class="demo3"><a href="http://www.google.com.tw" style="color:black;"title="経歴">経歴</a></li>
+
+<a class="gmailpic" href="mailto:lioushiyou02@gmail.com"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/New_Logo_Gmail.svg/1200px-New_Logo_Gmail.svg.png"width="45" height="30">lioushiyou02@gmail.com</a>
+
+
+</ul>
+</div>
+</div>
+<div class="AD">
+</div>
+<div class="Sup">
+<h1>About<span>.</span></h1>
+</div>
+
+
+<div class="MID">
+<div class="MID1">
+<div class="handsome">
+<img class="pic1" src="john.jpg">
+</div>
+<h1>劉子揚            (リュウ　シ　ヨウ)</h1>
+<h2><span>出身</Span></h2>
+<ul>
+<p>
+日本出身で小学三年までは日本に暮らしていました。
+両親仕事の都合で台湾帰国。
+一年の義務の兵役を服した後、特許事務所に約三年間バイトしました。</p>
+<p>その後輔人大学の物理学科に入学、大卒後Panasonic Industrial Devices Sales Taiwanに入社。
+二年後退職し、現在日本にいます。</p>
+
+</ul>
+<h2><span>趣味</Span></h2>
+<ul>
+
+<li class="company">筋トレ</li>
+<p>
+B,S,D：110,100,120 KG　（最高記録）</p>
+<li class="company">家でダラダラ</li>
+<li class="company">登山</li>
+<li class="company">欧米ドラマ</li>
+<p>
+推薦：Spartacus、Game of throne、Black mirror、Breaking Bad.
+</p>
+
+</ul>
+<h2><span>好きなゲーム</Span></h2>
+<ul>
+<li class="company">League of Legend</li>
+<p>
+ID:frangoulis(TW),siluognarf(TW),lioushiyou02(TW)
+</p>
+<p>Rank:
+S2 Score: 1752,
+S9 Score: Platinum
+</p>
+<li class="company">World Of Warcrat</li>
+<li class="company">Path Of Exile</li>
+<li class="company">バイオハザード　全シリーズ</li>
+<li class="company">モンスターハンター</li>
+<li class="company">Ragnarok　Online</li>
+</ul>
+</div>
+</div>
+<div class="BOT">
+<div id="div1">
+<div>Contact me</div>
+<!-- 一開始即執行javascript的 init() function -->
+<body onload="init()">
+ <form   class="mailtome" enctype="text/plain" accept-charset="utf-8">
+    <!-- 寄件者姓名    -->
+     <input id="nameText" type="text" name="Name"  value size="30" placeholder="名前(name)" required> <!-- required 必填欄位 ，placeholder 預設內容--> 
+     
+     <!-- 寄件者email -->
+     <input id="emailText" type="email" name="Email"  value size="30" placeholder="Email" required>
+     
+     <!-- 寄件者電話 -->
+     <input id="telText"type="tel" name="Phone"  value size="30" aria-invalid="false" placeholder="電話番号(phone)" required>
+     
+     <!-- 郵件主旨 -->
+     <input  id="subText" type="text" name="Subject"  value size="30" aria-invalid="false" placeholder="主旨(subject)" required>
+
+             
+     <!-- 郵件內容 -->
+     <p><textarea id="bodyText" name="your-message" cols="150" rows="10"  aria-required="true" aria-invalid="false" placeholder="メッセージ(Your Message)" required></textarea>
+	 
+	 </p>
+	 
+     
+     <!-- 傳送按鈕 -->
+     <div>
+         <input type="button" value="送り" onclick="submitHandler();">
+         <a id="mailTo"></a>
+     </div>
+ </form>
+</body>
+
+</div>
+</div>
+</body>
+
+</html>
